@@ -15,7 +15,7 @@ def fetch_company_repos(company):
   source = result.text
   soup = BeautifulSoup(source, "html.parser")
 
-  # what happends if there is a paginator? should iterate over pages (TO DO)
+  # what happens if there is a paginator? should iterate over pages (TO DO)
 
   # other aproaches
   # repositories = soup.find_all("a", attrs={"itemprop":"name codeRepository"})
