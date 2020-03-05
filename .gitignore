@@ -5,3 +5,4 @@ keys.py
 __pycache__
 audio
 data
+.ipynb_checkpoints
